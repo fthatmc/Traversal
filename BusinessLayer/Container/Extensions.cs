@@ -1,7 +1,12 @@
 ﻿using BusinessLayer.Abstract;
+using BusinessLayer.Abstract.AnstractUow;
 using BusinessLayer.Concrete;
+using BusinessLayer.Concrete.ConcreteUow;
+using BusinessLayer.ValidationRules.AnnouncementValidation;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
+using DataAccessLayer.UnitOfWork;
+using DTOLayer.DTOs.AnnouncementDtos;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -39,15 +44,16 @@ namespace BusinessLayer.Container
             services.AddScoped<IAnnouncementService, AnnouncementManager>();
             services.AddScoped<IAnnouncementDal, EfAnnouncementDal>();
 
-            //services.AddScoped<IAccountService, AccountManager>();
-            //services.AddScoped<IAccountDal, EfAccountDal>();
+            services.AddScoped<IAccountService, AccountManager>();
+            services.AddScoped<IAccountDal, EfAccountDal>();
 
-            //services.AddScoped<IUowDal, UowDal>();
+            services.AddScoped<IUowDal, UowDal>();
         }
 
         public static void CustomerValidator(this IServiceCollection services)
         {
-            //services.AddTransient<IValidator<AnnouncementAddDto>, AnnouncementValidator>();
+            //68.ders dk21
+            services.AddTransient<IValidator<AnnouncementAddDto>, AnnouncementValidator>();
         }
     }
 }

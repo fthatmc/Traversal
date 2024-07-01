@@ -2,6 +2,7 @@ using BusinessLayer.Container;
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -18,6 +19,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using TraversalCoreProje.CQRS.Handlers.DestinationHandlers;
 using TraversalCoreProje.Models;
 
 namespace TraversalCoreProje
@@ -34,7 +36,16 @@ namespace TraversalCoreProje
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+            //cqrs registration
+            services.AddScoped<GetAllDestinationQueryHandler>();
+            services.AddScoped<GetDestinationByIDQueryHandler>();
+            services.AddScoped<CreateDestinationCommandHandler>();
+            services.AddScoped<RemoveDestinationCommandHandler>();
+            services.AddScoped<UpdateDestinationCommandHandler>();
+
+            //mediatR registration
+            services.AddMediatR(typeof(Startup));
+
             //loglama 1.adým (2. adým homecontroller da)
             services.AddLogging(x =>
             {
@@ -48,8 +59,14 @@ namespace TraversalCoreProje
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().
                 AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
 
+            services.AddHttpClient();
+
             services.ContainerDependencies();
-            services.CustomerValidator();
+
+            services.AddAutoMapper(typeof(Startup)); //authomapper için eklenmeli
+
+            services.CustomerValidator(); //ders 68 dk 21 karþýlýðý busineslayer container extension da
+
             services.AddControllersWithViews().AddFluentValidation();
 
 
