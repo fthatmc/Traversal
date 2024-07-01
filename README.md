@@ -1,0 +1,10 @@
+
+![1](https://github.com/fthatmc/Traversal/assets/136472585/9fc8e8e4-4ae7-48d6-9dbf-739f4c15ac93)
+![2](https://github.com/fthatmc/Traversal/assets/136472585/0f7b8bbc-8c1b-4007-be6a-446a481e5fb4)
+![3](https://github.com/fthatmc/Traversal/assets/136472585/05417809-f7c4-49bf-959b-327a35efd112)
+![4](https://github.com/fthatmc/Traversal/assets/136472585/d34bacb3-1937-466c-8c63-4eb0bf418f34)
+![5](https://github.com/fthatmc/Traversal/assets/136472585/3e74e830-8853-4019-8f12-60a9ac6c7681)
+![6](https://github.com/fthatmc/Traversal/assets/136472585/ce5c60c7-b062-4b1f-91c1-034aca6864d0)
+![7](https://github.com/fthatmc/Traversal/assets/136472585/99b56660-2f15-40cd-a6b8-0a441d6680f9)
+![CQRS](https://github.com/fthatmc/Traversal/assets/136472585/bcf03fb6-5e4d-4a0e-a945-826ce54aba60)
+![RapidApi](https://github.com/fthatmc/Traversal/assets/136472585/54b48b08-ae8e-409f-9133-9daf45e731c2)
