@@ -8,6 +8,8 @@ using System;
 
 namespace TraversalCoreProje.Controllers
 {
+    //82. ders
+
     [AllowAnonymous]
     public class ContactController : Controller
     {

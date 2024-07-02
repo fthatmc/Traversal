@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAcce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{A05D5EE2-A87C-439D-A46D-CE532B71F06F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOLayer", "DTOLayer\DTOLayer.csproj", "{AEEB1267-2A46-44D3-8521-874C1D3F6951}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOLayer", "DTOLayer\DTOLayer.csproj", "{AEEB1267-2A46-44D3-8521-874C1D3F6951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRApi", "SignalRApi\SignalRApi.csproj", "{DBE92CA2-BC4B-4056-AFCD-8DCCC5B4F6A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AEEB1267-2A46-44D3-8521-874C1D3F6951}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEEB1267-2A46-44D3-8521-874C1D3F6951}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEEB1267-2A46-44D3-8521-874C1D3F6951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE92CA2-BC4B-4056-AFCD-8DCCC5B4F6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE92CA2-BC4B-4056-AFCD-8DCCC5B4F6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE92CA2-BC4B-4056-AFCD-8DCCC5B4F6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE92CA2-BC4B-4056-AFCD-8DCCC5B4F6A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
