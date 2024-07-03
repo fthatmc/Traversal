@@ -80,4 +80,3 @@ namespace TraversalCoreProje.Controllers
 }
 
 
-//37. DERSTEYİM
