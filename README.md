@@ -20,6 +20,7 @@ Bu Proje, kullanıcıların admin tarafından oluşturulmuş gezi turlarını g�
 - Mediator Design Pattern
 - Repository Design Pattern
 - SignalR
+- Filtreleme
 
 ![1](https://github.com/fthatmc/Traversal/assets/136472585/9fc8e8e4-4ae7-48d6-9dbf-739f4c15ac93)
 ![2](https://github.com/fthatmc/Traversal/assets/136472585/0f7b8bbc-8c1b-4007-be6a-446a481e5fb4)
