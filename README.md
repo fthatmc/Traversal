@@ -8,6 +8,8 @@
 ![7](https://github.com/fthatmc/Traversal/assets/136472585/99b56660-2f15-40cd-a6b8-0a441d6680f9)
 ![rota detay1](https://github.com/fthatmc/Traversal/assets/136472585/95395ab5-49b4-40fb-b1ce-c6d593bcfd7d)
 ![rota detay](https://github.com/fthatmc/Traversal/assets/136472585/5b11da03-1965-4e1f-8a6b-0afeccbdfea4)
+
+## Register İşlemi
 ![Register](https://github.com/fthatmc/Traversal/assets/136472585/f7ffa707-ca5c-4f07-be99-c0175220e0a2)
 
 ## CQRS ve Mediator Design Pattern'e örnekler
