@@ -2,6 +2,11 @@
 
 Bu Proje, kullanıcıların admin tarafından oluşturulmuş gezi turlarını görüntüleyebilmesi, turlara rezervasyon ve yorum yapabilmesi için N Tier Architecture yapısı kullanılarak geliştirilen bir web uygulamasıdır. Kullanıcılar, site üzerinden çeşitli gezi turlarını inceleyebilir, tur detaylarını öğrenebilir ve tercih ettikleri turlara rezervasyon yaptırabilirler.
 
+Veri tabanı olarak SQL Server kullanılarak, BusinessLayer, DataAccessLayer, DTOLayer, EntityLayer, PresentationLayer, SignalRApiForSQL ve SingalRConsume katmanlarından oluşan N Tier Architecture mimarisi, ASP.Net Core 5.0 ve Entity Framework Core teknolojileri kullanılarak Codefirst yaklaşımı ile API'lerle desteklenmiş ve kodlanmıştır. Ayrıca MSSQL ve Postgre SQL veri tabanları da kullanılmıştır.
+
+Ayrıca Ajax, Api, Api Consume, Google Chart, Raporlama, Unit of Work, CQRS Design Pattern, Repository Design Pattern, Fluent Validaton, Auto Mapper, DI, DTO, Identity, Login, Register, Rolleme, Dashboard, Linq, SignalR, Area, View Component, Include Metotlar, Hata Sayfaları, Mail Gönderme, Şifre Yenileme, Mail Aktivasyonu, Rapid Api, MediatR, Pivot Table, Trigger, Çoklu Dil Desteği ve birçok konu başlığını içeriyor.
+
+
 ## Kullanılan Teknolojiler
 
 - Entity Framework Code First
