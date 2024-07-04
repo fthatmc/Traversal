@@ -17,7 +17,8 @@ Bu Proje, kullanıcıların admin tarafından oluşturulmuş gezi turlarını g�
 - MailKit
 - AutoMapper
 - CQRS Design Pattern
-- Mediatr
+- Mediator Design Pattern
+- Repository Design Pattern
 - SignalR
 
 ![1](https://github.com/fthatmc/Traversal/assets/136472585/9fc8e8e4-4ae7-48d6-9dbf-739f4c15ac93)
