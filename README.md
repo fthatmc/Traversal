@@ -1,3 +1,24 @@
+# TraversalCoreProject
+
+Bu Proje, kullanıcıların admin tarafından oluşturulmuş gezi turlarını görüntüleyebilmesi, turlara rezervasyon ve yorum yapabilmesi için N Tier Architecture yapısı kullanılarak geliştirilen bir web uygulamasıdır. Kullanıcılar, site üzerinden çeşitli gezi turlarını inceleyebilir, tur detaylarını öğrenebilir ve tercih ettikleri turlara rezervasyon yaptırabilirler.
+
+## Kullanılan Teknolojiler
+
+- Entity Framework Code First
+- MSSQL Server
+- LINQ
+- Rapid API
+- AJAX
+- HTML
+- CSS
+- Bootstrap
+- Fluent Validation
+- Identity
+- MailKit
+- AutoMapper
+- CQRS Design Pattern
+- Mediatr
+- SignalR
 
 ![1](https://github.com/fthatmc/Traversal/assets/136472585/9fc8e8e4-4ae7-48d6-9dbf-739f4c15ac93)
 ![2](https://github.com/fthatmc/Traversal/assets/136472585/0f7b8bbc-8c1b-4007-be6a-446a481e5fb4)
