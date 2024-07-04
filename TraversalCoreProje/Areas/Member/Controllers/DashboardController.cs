@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 
 namespace TraversalCoreProje.Areas.Member.Controllers
 {
-    //ders 94 de kaldım
-
+    
     [Area("Member")]
     public class DashboardController : Controller
     {

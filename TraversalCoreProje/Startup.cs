@@ -56,8 +56,7 @@ namespace TraversalCoreProje
 
 
             services.AddDbContext<Context>();
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().
-                AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider).AddEntityFrameworkStores<Context>();
 
             services.AddHttpClient();
 
@@ -87,7 +86,7 @@ namespace TraversalCoreProje
                 opt.ResourcesPath = "Resources";
             });
 
-            //çoklu dil desteði 2. adým services.AddMvc() bunun devamýný yaz
+            //çoklu dil desteði 2. adým services.AddMvc() bunun devamýna aþaðýdaki kodlarý yaz
             services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
 
             services.ConfigureApplicationCookie(options =>
